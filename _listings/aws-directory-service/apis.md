@@ -34,7 +34,7 @@ apis:
   tags: Routes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/routes/master/_listings/aws-directory-service/action-listiproutes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/routes/master/_listings/aws-directory-service/action-removeiproutes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
