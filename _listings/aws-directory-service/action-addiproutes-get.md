@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddIpRoutes&k=1:
+  /?Action=AddIpRoutes:
     get:
       summary: ' Add Ip Routes '
       description: If the DNS server for your on-premises domain uses a publicly addressable
