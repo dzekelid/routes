@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveIpRoutes&k=1:
+  /?Action=RemoveIpRoutes:
     get:
       summary: ' Remove Ip Routes '
       description: Removes IP address blocks from a directory
