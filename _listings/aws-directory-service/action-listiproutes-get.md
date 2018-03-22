@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListIpRoutes&k=1:
+  /?Action=ListIpRoutes:
     get:
       summary: ' List Ip Routes '
       description: Lists the address blocks that you have added to a directory
