@@ -34,7 +34,7 @@ apis:
   tags: Routes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-addiproutes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-listiproutes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
