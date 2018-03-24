@@ -19,8 +19,8 @@ tags:
 - Discovery
 - Authentication
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -34,7 +34,7 @@ apis:
   tags: Routes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-removeiproutes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-addiproutes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
