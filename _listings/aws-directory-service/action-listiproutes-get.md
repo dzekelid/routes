@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API List Ip Routes
   version: 1.0.0
+  description: Lists the address blocks that you have added to a directory.
 schemes:
 - http
 produces:
