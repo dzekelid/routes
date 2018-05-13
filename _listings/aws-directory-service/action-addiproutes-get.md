@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Add Ip Routes
   version: 1.0.0
+  description: If the DNS server for your on-premises domain uses a publicly addressable
+    IP address, you must add a CIDR address block to correctly route traffic to and
+    from your Microsoft AD on Amazon Web Services.
 schemes:
 - http
 produces:
