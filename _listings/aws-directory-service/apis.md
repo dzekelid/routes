@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-removeiproutes-get.md
-- name: AWS Directory Service API List Ip Routes
-  description: Lists the address blocks that you have added to a directory.
+- name: AWS Directory Service API Remove Ip Routes
+  description: Removes IP address blocks from a directory.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
   humanURL: https://aws.amazon.com/directoryservice/
   baseURL: http:://{host}//
   tags: Routes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-listiproutes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-removeiproutes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
