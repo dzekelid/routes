@@ -35,17 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-removeiproutes-get.md
-- name: AWS Directory Service API Add Ip Routes
-  description: If the DNS server for your on-premises domain uses a publicly addressable
-    IP address, you must add a CIDR address block to correctly route traffic to and
-    from your Microsoft AD on Amazon Web Services.
+- name: AWS Directory Service API List Ip Routes
+  description: Lists the address blocks that you have added to a directory.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
   humanURL: https://aws.amazon.com/directoryservice/
   baseURL: http:://{host}//
   tags: Routes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-addiproutes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/aws-directory-service/action-listiproutes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
