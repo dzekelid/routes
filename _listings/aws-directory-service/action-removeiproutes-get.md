@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Remove Ip Routes
   version: 1.0.0
+  description: Removes IP address blocks from a directory.
 schemes:
 - http
 produces:
