@@ -7,10 +7,10 @@ description: Azure Virtual Network lets you create private networks in the cloud
   or connect privately by using the ExpressRoute service.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Routes
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Routes
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutesroutename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutesroutename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutesroutename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutesroutename-delete-openapi.md
 - name: Azure Virtual Network API Routes Get
   x-api-slug: azure-virtual-network-api
   description: Gets the specified route from a route table.
@@ -35,9 +35,9 @@ apis:
   tags: Routes
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutesroutename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutesroutename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutesroutename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutesroutename-get-openapi.md
 - name: Azure Virtual Network API Routes Create Or Update
   x-api-slug: azure-virtual-network-api
   description: Creates or updates a route in the specified route table.
@@ -47,7 +47,7 @@ apis:
   tags: Routes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutesroutename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutesroutename-put-openapi.md
 - name: Azure Virtual Network API Routes List
   x-api-slug: azure-virtual-network-api
   description: Gets all routes in a route table.
@@ -57,9 +57,9 @@ apis:
   tags: Routes
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutes-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutetablesroutetablenameroutes-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutetablesroutetablenameroutes-get-openapi.md
 - name: Azure Virtual Network API
   x-api-slug: azure-virtual-network-api
   description: Azure Virtual Network lets you create private networks in the cloud
