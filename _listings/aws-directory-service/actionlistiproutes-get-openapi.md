@@ -67,6 +67,27 @@ paths:
           description: OK
       tags:
       - IP Address Routes
+  /?Action=RemoveIpRoutes:
+    get:
+      summary: Remove Ip Routes
+      description: Removes IP address blocks from a directory.
+      operationId: removeIpRoutes
+      x-api-path-slug: actionremoveiproutes-get
+      parameters:
+      - in: query
+        name: CidrIps
+        description: IP address blocks that you want to remove
+        type: string
+      - in: query
+        name: DirectoryId
+        description: Identifier (ID) of the directory from which you want to remove
+          the IP addresses
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - IP Address Routes
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

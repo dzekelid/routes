@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washi
 x-kinRank: "8"
 x-alexaRank: "24927"
 tags: Routes
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/apis.md
 specificationVersion: "0.14"
 apis:
-- name: WMATA Bus Route and Stop Methods JSON - Path Details
-  x-api-slug: wmata-bus-route-and-stop-methods
+- name: Bus Route and Stop Methods - JSON - Path Details
+  x-api-slug: jsonjroutedetails-get
   description: "Description\r\n\r\nFor a given date, returns the set of ordered latitude/longitude
     points along\r\na route variant along with the list of stops served.\r\n\r\nResponse
     Elements\r\n\r\n\r\n\r\n\r\nElement\r\n\r\nDescription\r\n\r\n\r\n\r\n\r\n\r\nDirection0/Direction1\r\n\r\n\r\nStructures
@@ -39,35 +39,35 @@ apis:
     NULL."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc//json/jRouteDetails
-  tags: Buses,Routes
+  baseURL: https://api.wmata.com//Bus.svc
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/jsonjroutedetails-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/jsonjroutedetails-get-openapi.md
-- name: WMATA Bus Route and Stop Methods JSON - Routes
-  x-api-slug: wmata-bus-route-and-stop-methods
+- name: Bus Route and Stop Methods - JSON - Routes
+  x-api-slug: jsonjroutes-get
   description: "Description\r\n\r\nReturns a list of all bus route variants (patterns).
     For example, the 10A\r\nand 10Av1 are the same route, but may stop at slightly
     different locations.\r\n\r\nResponse Elements\r\n\r\n\r\n\r\n\r\nElement\r\n\r\nDescription\r\n\r\n\r\n\r\n\r\n\r\nRoutes\r\n\r\n\r\nArray
     containing route variant information (Route).\r\n\r\n\r\n\r\n\r\n\r\n\r\nRoute
     Elements\r\n\r\n\r\n\r\n\r\n\r\nName\r\n\r\nDescriptive name of the route variant.\r\n\r\n\r\n\r\nRouteID\r\n\r\nUnique
     identifier for a given route variant. Can be used in\r\nvarious other bus-related
-    methods.\r\n\r\n\r\n\r\nLineDescription\r\n\r\nDenotes the route variant\u2019s
-    grouping \u2013 lines are a combination of routes which lie in the same corridor
-    and which have significant portions of their paths along the same roadways."
+    methods.\r\n\r\n\r\n\r\nLineDescription\r\n\r\nDenotes the route variant???s grouping
+    ??? lines are a combination of routes which lie in the same corridor and which
+    have significant portions of their paths along the same roadways."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc//json/jRoutes
-  tags: Buses,Routes
+  baseURL: https://api.wmata.com//Bus.svc
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/jsonjroutes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/jsonjroutes-get-openapi.md
-- name: WMATA Bus Route and Stop Methods JSON - Schedule
-  x-api-slug: wmata-bus-route-and-stop-methods
+- name: Bus Route and Stop Methods - JSON - Schedule
+  x-api-slug: jsonjrouteschedule-get
   description: "Description\r\n\r\nReturns schedules for a given route variant for
     a given date.\r\n\r\nResponse Elements\r\n\r\n\r\n\r\n\r\nElement\r\n\r\nDescription\r\n\r\n\r\n\r\n\r\n\r\nDirection0/Direction1\r\n\r\n\r\nArrays
     containing trip information (Trip).\r\n\r\nMost routes will return content in
@@ -97,15 +97,15 @@ apis:
     YYYY-MM-DDTHH:mm:ss format (e.g.:\r\n2014-10-27T13:17:00)."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc//json/jRouteSchedule
-  tags: Buses,Routes,Schedules
+  baseURL: https://api.wmata.com//Bus.svc
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/jsonjrouteschedule-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/jsonjrouteschedule-get-openapi.md
-- name: WMATA Bus Route and Stop Methods XML - Path Details
-  x-api-slug: wmata-bus-route-and-stop-methods
+- name: Bus Route and Stop Methods - XML - Path Details
+  x-api-slug: routedetails-get
   description: "Description\r\nFor a given date, returns the set of ordered latitude/longitude
     points along route variant along with the list of stops served.\r\nResponse Elements\r\n\r\n\r\n\r\nElement\r\nDescription\r\n\r\n\r\n\r\n\r\nDirection0/Direction1\r\n\r\nStructures
     describing path/stopinformation.\r\n\r\nMost routes will return content in both
@@ -129,46 +129,35 @@ apis:
     bus-related methods. If unavailable, the StopID will be 0 or NULL."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc//RouteDetails
-  tags: Buses,Routes
+  baseURL: https://api.wmata.com//Bus.svc
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/routedetails-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/routedetails-get-openapi.md
-- name: WMATA Bus Route and Stop Methods XML - Routes
-  x-api-slug: wmata-bus-route-and-stop-methods
+- name: Bus Route and Stop Methods - XML - Routes
+  x-api-slug: routes-get
   description: "Description\r\n\r\nReturns a list of all bus route variants (patterns).
     For example, the 10A\r\nand 10Av1 are the same route, but may stop at slightly
     different locations.\r\n\r\nResponse Elements\r\n\r\n\r\n\r\n\r\nElement\r\n\r\nDescription\r\n\r\n\r\n\r\n\r\n\r\nRoutes\r\n\r\n\r\nArray
     containing route variant information (Route).\r\n\r\n\r\n\r\n\r\n\r\n\r\nRoute
     Elements\r\n\r\n\r\n\r\n\r\n\r\nName\r\n\r\nDescriptive name of the route variant.\r\n\r\n\r\n\r\nRouteID\r\n\r\nUnique
     identifier for a given route variant. Can be used in\r\nvarious other bus-related
-    methods.\r\n\r\n\r\n\r\n\r\nLineDescription\r\n\r\nDenotes the route variant\u2019s
-    grouping \u2013 lines are a combination of routes which lie in the same corridor
+    methods.\r\n\r\n\r\n\r\n\r\nLineDescription\r\n\r\nDenotes the route variant???s
+    grouping ??? lines are a combination of routes which lie in the same corridor
     and which have significant portions of their paths along the same roadways."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc//Routes
-  tags: Buses,Routes
+  baseURL: https://api.wmata.com//Bus.svc
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/routes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/routes-get-openapi.md
-- name: WMATA Bus Route and Stop Methods
-  x-api-slug: wmata-bus-route-and-stop-methods
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc
-  tags: Routes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
-- name: WMATA Train Positions Standard Routes
-  x-api-slug: wmata-train-positions
+- name: Train Positions - Standard Routes
+  x-api-slug: standardroutes-get
   description: "Description\r\n\r\nReturns an ordered list of mostly revenue (and
     some lead) track circuits, arranged by line and track number.  This data does
     not change frequently and should be cached for a reasonable amount of time.\r\nPlease
@@ -186,25 +175,18 @@ apis:
     about a station."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//TrainPositions//StandardRoutes
-  tags: Transit,Subway,Routes
+  baseURL: https://api.wmata.com//TrainPositions
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/standardroutes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/standardroutes-get-openapi.md
-- name: WMATA Train Positions
-  x-api-slug: wmata-train-positions
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//TrainPositions
-  tags: Routes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://vzaar.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://washington.metropolitan.area.transit.authority.stack.network
 - type: x-base
   url: http://api.wmata.com/
 - type: x-crunchbase

@@ -10,38 +10,188 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_g
 x-kinRank: "8"
 x-alexaRank: "24750"
 tags: Routes
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Mailgun API Routes
-  x-api-slug: mailgun-api
+- name: Mailgun API - Routes
+  x-api-slug: routes-get
   description: Fetches the list of routes. Note that routes are defined globally,
     per account, not per domain as most of other API calls.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
   humanURL: http://mailgun.net
-  baseURL: https://api.mailgun.net/v2//routes/
-  tags: Routes
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-get-openapi.md
-- name: Mailgun API
-  x-api-slug: mailgun-api
-  description: Mailgun is a set of powerful APIs that allow you to send, receive,
-    track and store email effortlessly.
+- name: Mailgun API - Add Route
+  x-api-slug: routes-post
+  description: Creates a new route.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
   humanURL: http://mailgun.net
   baseURL: https://api.mailgun.net/v2/
-  tags: Routes
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-post-openapi.md
+- name: Mailgun API - Delete Route
+  x-api-slug: routesid-delete
+  description: Deletes a route based on the id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-delete-openapi.md
+- name: Mailgun API - Route
+  x-api-slug: routesid-get
+  description: Returns a single route object based on its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-get-openapi.md
+- name: Mailgun API - Updates Route
+  x-api-slug: routesid-put
+  description: Updates a given route by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-put-openapi.md
+- name: Mailgun API - Add Route
+  x-api-slug: routes-post
+  description: Creates a new route.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-post-openapi.md
+- name: Mailgun API - Delete Route
+  x-api-slug: routesid-delete
+  description: Deletes a route based on the id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-delete-openapi.md
+- name: Mailgun API - Route
+  x-api-slug: routesid-get
+  description: Returns a single route object based on its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-get-openapi.md
+- name: Mailgun API - Updates Route
+  x-api-slug: routesid-put
+  description: Updates a given route by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-put-openapi.md
+- name: Mailgun API - Updates Route
+  x-api-slug: routesid-put
+  description: Updates a given route by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-put-openapi.md
+- name: Mailgun API - Route
+  x-api-slug: routesid-get
+  description: Returns a single route object based on its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-get-openapi.md
+- name: Mailgun API - Delete Route
+  x-api-slug: routesid-delete
+  description: Deletes a route based on the id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routesid-delete-openapi.md
+- name: Mailgun API - Add Route
+  x-api-slug: routes-post
+  description: Creates a new route.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/routes/master/_listings/mailgun/routes-post-openapi.md
 x-common:
 - type: x--net-library
   url: http://documentation.mailgun.com/libraries.html#c
+- type: x-api-gallery
+  url: http://lykke.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://mailgun.stack.network
 - type: x-base
   url: https://api.mailgun.net
 - type: x-blog
